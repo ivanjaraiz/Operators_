@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operators_", "Operators_.csproj", "{B4D6C2A4-C271-42EB-A337-5867161E91DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operators_", "Operators_.csproj", "{B4D6C2A4-C271-42EB-A337-5867161E91DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassCs", "..\ClassCs\ClassCs.csproj", "{DD9CA1A1-8A2C-45EB-854D-0A0D0DA14600}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassCs", "..\ClassCs\ClassCs.csproj", "{DD9CA1A1-8A2C-45EB-854D-0A0D0DA14600}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "arrays", "..\arrays\arrays.csproj", "{A919B231-B4A1-4EE9-BAE5-9DC64B6D90F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "arrays", "..\arrays\arrays.csproj", "{A919B231-B4A1-4EE9-BAE5-9DC64B6D90F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "string_app", "..\string_app\string_app.csproj", "{8BF3D412-39ED-4EAA-9E31-02ACB95D4C52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "string_app", "..\string_app\string_app.csproj", "{8BF3D412-39ED-4EAA-9E31-02ACB95D4C52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "enums", "..\enums\enums.csproj", "{1C2B6210-FE13-4DAA-8AED-3B5A4FF5F72E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "enums", "..\enums\enums.csproj", "{1C2B6210-FE13-4DAA-8AED-3B5A4FF5F72E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Value_Reference_types", "..\Value_Reference_types\Value_Reference_types.csproj", "{1177C044-E973-463E-9E6E-047BEFBA4C6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Value_Reference_types", "..\Value_Reference_types\Value_Reference_types.csproj", "{1177C044-E973-463E-9E6E-047BEFBA4C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{AF50611B-AADA-4876-BC3B-BB427EDB24A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4D6C2A4-C271-42EB-A337-5867161E91DE} = {AF50611B-AADA-4876-BC3B-BB427EDB24A4}
+		{DD9CA1A1-8A2C-45EB-854D-0A0D0DA14600} = {AF50611B-AADA-4876-BC3B-BB427EDB24A4}
+		{A919B231-B4A1-4EE9-BAE5-9DC64B6D90F4} = {AF50611B-AADA-4876-BC3B-BB427EDB24A4}
+		{8BF3D412-39ED-4EAA-9E31-02ACB95D4C52} = {AF50611B-AADA-4876-BC3B-BB427EDB24A4}
+		{1C2B6210-FE13-4DAA-8AED-3B5A4FF5F72E} = {AF50611B-AADA-4876-BC3B-BB427EDB24A4}
+		{1177C044-E973-463E-9E6E-047BEFBA4C6B} = {AF50611B-AADA-4876-BC3B-BB427EDB24A4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AC959728-373B-46A7-995E-CC40849DC64E}
